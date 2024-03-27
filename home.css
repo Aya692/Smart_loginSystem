@@ -1,0 +1,49 @@
+body {
+    background-color: #24353f;
+    color: white;
+    
+}
+
+.row {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+}
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+.logo {
+    font-size: 22px;
+    font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: 0.3s;
+  border: 1px solid rgb(238, 191, 3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+a:hover {
+    background-color: rgb(238, 191, 3);
+    color: white;
+}
+.welcome {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+    text-align: center;
+    margin-top:200px;
+    padding: 60px;
+    width: 60%;
+}
+h1 {
+    color: #17a2b8;
+}

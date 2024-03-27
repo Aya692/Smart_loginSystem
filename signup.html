@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+   
+    <div class="container text-center my-5">
+        <div class="row m-auto w-75 p-5">
+            
+          <h1>Smart Login System</h1>
+          <input type="text" placeholder="Enter your name" class=" my-1   " id="name">
+         
+         
+          <p class="Alert d-none ">Please start with capital letter and it must contain at least 3 letters</p>
+
+
+          <input type="email" placeholder="Enter your email " class="my-3" id="email"> 
+          <p class="alertt d-none"> Email must follow email formate ex:[aya231@gmail.com]</p>
+
+         
+         <input type="password" placeholder="Enter your password" class=" my-1" id="password">
+         <p class="alertPass d-none">password must contain at least 5 numbers</p>
+         <p id="required" class="my-3 d-none ">All inputs is required</p>
+         <p id="incorrect" class="my-3 d-none">Email is already exist</p>
+         <p id="success" class=" my-3 d-none">  Success you can login now </p>
+        <button id="login-btn"  class="my-4 login">Login</button>
+        <p class="no-account">you have an account!
+            <a href="index.html">Signin</a>
+        </p>
+        </div>
+
+    </div>
+
+ 
+    <script src="signup.js"></script>
+</body>
+</html>
